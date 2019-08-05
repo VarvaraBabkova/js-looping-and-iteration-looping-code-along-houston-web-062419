@@ -7,3 +7,10 @@ function writeCards (names, cause)
   }
   return cards;
 }
+
+function countdown(num)
+{
+  while (num >= 0) {
+    console.log(num--);
+  }
+}
